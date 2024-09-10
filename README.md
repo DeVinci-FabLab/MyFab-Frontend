@@ -4,6 +4,8 @@ blabla la description
 
 ## Creating a Sveltekit project with tailwindcss
 
+You need to have bun or npm to create a project, you can install bun here : https://bun.sh/
+
 ```bash
 # create a new project in the current directory
 bun create svelte@latest
