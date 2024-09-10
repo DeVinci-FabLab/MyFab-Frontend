@@ -1,0 +1,3 @@
+[submodule "src/lib/Components"]
+	path = src/lib/Components
+	url = https://github.com/DeVinci-FabLab/Components
