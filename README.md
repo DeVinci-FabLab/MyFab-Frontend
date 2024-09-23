@@ -1,78 +1,38 @@
-# MyFab-Frontend
+![screenshot](./docs/assets/img/presentation.png)
 
-blabla la description
+## Overview
 
-## Creating a Sveltekit project with tailwindcss
+> Frontend repository of the MyFab project.
 
-You need to have bun or npm to create a project, you can install bun here : https://bun.sh/
+This repository contains the frontend of the MyFab project as well as its documentation and components. The frontend is built using SvelteKit and TailwindCSS.
 
-```bash
-# create a new project in the current directory
-bun create svelte@latest
+## Getting Started
 
-# create a new project in my-app
-bun create svelte@latest my-app
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Documentation](#documentation)
+  - [Supported languages](#supported-languages)
+  - [Roadmap for future improvements](#roadmap-for-future-improvements)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-# Add tailwindcss 
-bun install -D tailwindcss postcss autoprefixer
-bun tailwindcss init -p
-```
+### Documentation
 
-Then we need to configure tailwindcss : 
+The frontend documentation is available [here](https://github.com/DeVinci-FabLab/MyFab-Frontend/blob/main/docs/index.md).
 
-In `tailwind.config.js` : 
-```js
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./src/**/**/**/*.{html,js,svelte,ts}',
-  theme: {
-    extend: {}
-  },
-  plugins: []
-};
-```
+### Supported languages
 
-In `src/`, create a file named `app.css`, with this content : 
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
+- English 🇬🇧
+- French 🇫🇷 [partial]
 
-In `src/routes/`, create a file named `+layout.svelte`, with this content :
-```svelte
-<script>
-	import '../app.css';
-</script>
+### Roadmap for future improvements
 
-<slot />
-```
+[Insert the project link here]
 
-> You are ready to rock !
+### Contributing
 
+If you want to contribute to the project, please read the [CONTRIBUTING](./.github/CONTRIBUTING) file and contact the project manager.
 
-## Developing
+### License
 
-```bash
-# init the project
-git clone https://github.com/DeVinci-FabLab/MyFab-Frontend
-git submodule init
-git submodule update --remote --merge
-bun install
-
-# serve the project
-bun run dev
-
-# or start the server and open the app in a new browser tab
-bun run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-bun run build
-```
-
-You can preview the production build with `bun run preview`.
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
