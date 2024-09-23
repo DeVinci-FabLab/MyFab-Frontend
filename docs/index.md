@@ -4,7 +4,7 @@ This directory contains the documentation for the frontend of the MyFab applicat
 
 ## Table of Contents
 
-- [Introduction](introduction.md) : Why we chose Svelte
-- [Create a New Project](create-project.md) : How to create a new SvelteKit project
-- [Environment Setup](env-setup.md) : Setting up your development environment
-- [Development Workflow](dev-workflow.md) : How to develop new features and fix bugs
+- [Introduction](./pages/introduction.md) : Why we chose Svelte
+- [Create a New Project](./pages/create-project.md) : How to create a new SvelteKit project
+- [Environment Setup](./pages/env-setup.md) : Setting up your development environment
+- [Development Workflow](./pages/dev-workflow.md) : How to develop new features and fix bugs
